@@ -1,0 +1,14 @@
+*** Settings ***
+Resource          ../Resourse/02行为keywords.txt
+Resource          ../Resourse/01动作keywords.txt
+
+*** Test Cases ***
+01登录-正常
+    [Setup]    打开浏览器
+    点击元素    id=login
+    Maximize Browser Window
+    select frame    xpath=/html/body/div[8]/div/div/div[11]/iframe
+    输入元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[2]/input    472968550@qq.com
+    输入元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[3]/div[1]/input    a12345
+    点击元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[4]/input
+    [Teardown]    close browser

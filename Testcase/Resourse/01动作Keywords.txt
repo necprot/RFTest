@@ -1,0 +1,14 @@
+*** Settings ***
+Library           Selenium2Library
+Library           String
+
+*** Keywords ***
+点击元素
+    [Arguments]    ${ele}
+    wait until page contains element    ${ele}    10s
+    click element    ${ele}
+
+输入元素
+    [Arguments]    ${ele2}    ${ele3}
+    wait until page contains element    ${ele2}
+    input text    ${ele2}    ${ele3}
