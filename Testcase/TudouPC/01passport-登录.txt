@@ -20,5 +20,5 @@ Resource          ../Resourse/01动作keywords.txt
     select frame    xpath=/html/body/div[8]/div/div/div[11]/iframe
     输入元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[2]/input    332543532@qq.com
     输入元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[3]/div[1]/input    a12345
-    点击元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[4]/input
+    点击元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[4]/inpu
     close browser
