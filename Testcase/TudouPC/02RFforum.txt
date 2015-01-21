@@ -1,0 +1,12 @@
+*** Settings ***
+Resource          ../Resourse/02行为keywords.txt
+Resource          ../Resourse/01动作keywords.txt
+
+*** Test Cases ***
+01登录
+    open browser    robotframework.net
+    点击元素    xpath=/html/body/div[2]/div/div[4]/a[1]
+    点击元素    id=aw-login-user-name
+    点击元素    id=aw-login-user-password
+    点击元素    id=login_submit
+    Page Should Contain Element    id=header_publish
