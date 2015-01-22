@@ -4,9 +4,11 @@ Resource          ../Resourse/01动作keywords.txt
 
 *** Test Cases ***
 01登录
-    open browser    robotframework.net
+    open browser    http://robotframework.net
     点击元素    xpath=/html/body/div[2]/div/div[4]/a[1]
-    点击元素    id=aw-login-user-name
-    点击元素    id=aw-login-user-password
+    输入元素    id=aw-login-user-name    332543532@qq.com
+    输入元素    id=aw-login-user-password    abc#123
     点击元素    id=login_submit
+    sleep    3
     Page Should Contain Element    id=header_publish
+    close browser
