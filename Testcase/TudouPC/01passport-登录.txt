@@ -21,4 +21,4 @@ Resource          ../Resourse/01动作keywords.txt
     输入元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[2]/input    332543532@qq.com
     输入元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[3]/div[1]/input    a12345
     点击元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[4]/inpu
-    close browser
+    [Teardown]    close browser
