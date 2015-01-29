@@ -12,3 +12,4 @@ Resource          ../Resourse/01动作keywords.txt
     Comment    sleep    3
     Comment    Page Should Contain Element    id=header_publish
     Comment    close browser
+    comment    sleep    5
