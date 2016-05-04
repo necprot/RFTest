@@ -3,4 +3,4 @@ Resource          01动作Keywords.txt
 
 *** Keywords ***
 打开浏览器
-    open browser    http://www.tudou.com
+    open browser    http://www.tudou.com    gc
