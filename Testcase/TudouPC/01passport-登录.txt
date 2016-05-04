@@ -12,3 +12,6 @@ Resource          ../Resourse/01动作keywords.txt
     Comment    输入元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[3]/div[1]/input    a12345
     Comment    点击元素    xpath=/html/body/div[1]/div[1]/div[1]/form/div[4]/input
     [Teardown]    close browser
+
+test01
+    open browser    http://www.tudou.com    browser=ie
