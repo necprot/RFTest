@@ -14,4 +14,5 @@ Resource          ../Resourse/01动作keywords.txt
     [Teardown]    close browser
 
 test01
-    open browser    http://www.tudou.com    browser=ie
+    open browser    http://www.tudou.com    gc
+    close browser
